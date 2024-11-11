@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "myth_craft:item/637978442911383376"
+  }
+}

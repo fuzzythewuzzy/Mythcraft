@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "myth_craft:umbral_step"
+    },
+    "title": {
+      "translate": "advancements.veliborn_uncaged.title"
+    },
+    "description": {
+      "translate": "advancements.veliborn_uncaged.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "veliborn_uncaged_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "myth_craft:thanksforplaying"
+}

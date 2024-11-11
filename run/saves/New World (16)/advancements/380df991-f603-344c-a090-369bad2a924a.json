@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-10 00:49:41 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-10 00:49:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-11-10 00:50:33 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-11-10 01:27:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-11-10 01:27:46 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

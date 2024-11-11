@@ -1,0 +1,101 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-09 20:57:26 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-09 20:57:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2024-11-09 20:57:28 -0500",
+      "minecraft:forest": "2024-11-09 21:18:09 -0500",
+      "minecraft:old_growth_spruce_taiga": "2024-11-09 20:58:28 -0500"
+    },
+    "done": false
+  },
+  "myth_craft:glass_half_full": {
+    "criteria": {
+      "glass_half_full_0": "2024-11-09 20:57:50 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:aetheris_awakening": {
+    "criteria": {
+      "aetheris_awakening_0": "2024-11-09 20:57:50 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:fullglass": {
+    "criteria": {
+      "fullglass_0": "2024-11-09 20:58:11 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:fiending": {
+    "criteria": {
+      "fiending_0": "2024-11-09 20:58:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-11-09 20:59:09 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

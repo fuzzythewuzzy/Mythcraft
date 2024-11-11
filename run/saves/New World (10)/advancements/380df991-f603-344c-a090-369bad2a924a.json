@@ -1,0 +1,46 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-09 22:48:33 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-09 22:48:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-11-09 22:48:34 -0500",
+      "minecraft:plains": "2024-11-09 23:24:51 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-09 22:48:56 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:veliborn_uncaged": {
+    "criteria": {
+      "veliborn_uncaged_0": "2024-11-09 22:49:07 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:umbralsteppes": {
+    "criteria": {
+      "umbralsteppes_0": "2024-11-09 22:49:30 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:shadow_chian": {
+    "criteria": {
+      "shadow_chian_0": "2024-11-09 22:50:02 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

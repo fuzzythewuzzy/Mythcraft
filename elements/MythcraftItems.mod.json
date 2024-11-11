@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Mythcraft Items",
+    "icon": {
+      "value": "CUSTOM:Turbanicant"
+    },
+    "showSearch": false
+  }
+}

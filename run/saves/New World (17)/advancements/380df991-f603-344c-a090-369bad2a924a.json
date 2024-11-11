@@ -1,0 +1,35 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-10 14:04:35 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-10 14:04:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2024-11-10 15:17:41 -0500",
+      "minecraft:snowy_plains": "2024-11-10 14:04:37 -0500",
+      "minecraft:ice_spikes": "2024-11-10 15:12:13 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-10 15:16:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-11-10 15:16:45 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

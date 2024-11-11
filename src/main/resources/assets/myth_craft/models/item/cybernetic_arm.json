@@ -1,0 +1,7 @@
+{
+  "parent": "myth_craft:custom/cybernetic_arm_1",
+  "textures": {
+    "1": "myth_craft:block/texture",
+    "particle": "myth_craft:item/auear"
+  }
+}

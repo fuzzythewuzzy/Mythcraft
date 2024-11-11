@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Mythcraftabilites",
+    "icon": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "showSearch": true
+  }
+}

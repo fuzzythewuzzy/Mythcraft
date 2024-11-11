@@ -1,0 +1,9 @@
+{
+  "_fv": 69,
+  "_type": "function",
+  "definition": {
+    "code": "# Enter the function code here\n/give @s myth_craft:crimson_claws",
+    "name": "chasethebag",
+    "namespace": "mod"
+  }
+}

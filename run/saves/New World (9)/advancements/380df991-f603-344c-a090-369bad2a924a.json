@@ -1,0 +1,33 @@
+{
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-09 22:41:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-09 22:41:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2024-11-09 22:41:55 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-09 22:43:40 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:veliborn_uncaged": {
+    "criteria": {
+      "veliborn_uncaged_0": "2024-11-09 22:44:50 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

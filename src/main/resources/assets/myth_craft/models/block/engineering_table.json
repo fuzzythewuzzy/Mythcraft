@@ -1,0 +1,9 @@
+{
+  "parent": "myth_craft:custom/jewelcrafting_station",
+  "textures": {
+    "all": "myth_craft:block/jewelcrafting_station",
+    "particle": "myth_craft:block/jewelcrafting_station",
+    "3": "myth_craft:block/jewelcrafting_station"
+  },
+  "render_type": "solid"
+}

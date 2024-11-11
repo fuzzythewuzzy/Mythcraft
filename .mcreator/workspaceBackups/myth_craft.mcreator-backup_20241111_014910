@@ -1,0 +1,1569 @@
+{
+  "mod_elements": [
+    {
+      "name": "LightingCloack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_cloack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/LightingCloackItem.java",
+          "src/main/resources/assets/myth_craft/models/item/lighting_cloack.json"
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/lighting cloak"
+    },
+    {
+      "name": "Mythcraftabilites",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythcraftabilites",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LcEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/LcEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/lighting cloak"
+    },
+    {
+      "name": "Lc",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/potion/LcMobEffect.java"
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/lighting cloak"
+    },
+    {
+      "name": "LightingCloackRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_cloack_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/LightingCloackRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/lighting cloak"
+    },
+    {
+      "name": "EclispeStrikeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eclispe_strike_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/EclispeStrikeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Eclispe_Strike"
+    },
+    {
+      "name": "EclispeStrike",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eclispe_strike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/EclispeStrikeItem.java",
+          "src/main/resources/assets/myth_craft/models/item/eclispe_strike.json"
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Eclispe_Strike"
+    },
+    {
+      "name": "UmbralStepRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbral_step_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/UmbralStepRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Umbral Step"
+    },
+    {
+      "name": "UmbralStep",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbral_step",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/UmbralStepItem.java",
+          "src/main/resources/assets/myth_craft/models/item/umbral_step.json"
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Umbral Step"
+    },
+    {
+      "name": "Joinedworld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joinedworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/JoinedworldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff"
+    },
+    {
+      "name": "Thanksforplaying",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanksforplaying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/thanksforplaying.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "TurbanicantRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turbanicant_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/TurbanicantRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/items/Awakening"
+    },
+    {
+      "name": "AetherisAwakening",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetheris_awakening",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/aetheris_awakening.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Turbanicant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turbanicant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/TurbanicantItem.java",
+          "src/main/resources/assets/myth_craft/models/item/turbanicant.json"
+        ]
+      },
+      "path": "~/clanstuff/items/Awakening"
+    },
+    {
+      "name": "Setclans",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setclans",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/SetclansProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Setclan",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setclan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/command/SetclanCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "BloodSyctheToolInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_sycthe_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/BloodSyctheToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Crimson Claws"
+    },
+    {
+      "name": "BloodSycthe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_sycthe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/BloodSyctheItem.java",
+          "src/main/resources/assets/myth_craft/models/item/blood_sycthe.json"
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Crimson Claws"
+    },
+    {
+      "name": "CrimsonClawsRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_claws_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/CrimsonClawsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Crimson Claws"
+    },
+    {
+      "name": "CrimsonClaws",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_claws",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/CrimsonClawsItem.java",
+          "src/main/resources/assets/myth_craft/models/item/crimson_claws.json"
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Crimson Claws"
+    },
+    {
+      "name": "SanguineHealingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanguine_healing_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/SanguineHealingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Sanguine Healing"
+    },
+    {
+      "name": "SanguineHealing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanguine_healing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/myth_craft/models/item/sanguine_healing.json",
+          "src/main/java/net/mcreator/mythcraft/item/SanguineHealingItem.java"
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Sanguine Healing"
+    },
+    {
+      "name": "Bloodleveleffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodleveleffects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/BloodleveleffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/blood magment"
+    },
+    {
+      "name": "Fiendmode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiendmode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/FiendmodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/blood magment"
+    },
+    {
+      "name": "BloodPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/BloodPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/items/Consounmble"
+    },
+    {
+      "name": "Blood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/BloodItem.java",
+          "src/main/resources/assets/myth_craft/models/item/blood.json"
+        ]
+      },
+      "path": "~/clanstuff/items/Consounmble"
+    },
+    {
+      "name": "MythcraftItems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythcraft_items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GlassHalfFull",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_half_full",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/glass_half_full.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Fullglass",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fullglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/fullglass.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Fiending",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiending",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/fiending.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Setbloodlevel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setbloodlevel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/SetbloodlevelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Setbloodl",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setbloodl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/command/SetbloodlCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Chasethebag",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chasethebag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/functions/chasethebag.mcfunction"
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/progresssion"
+    },
+    {
+      "name": "IJUSTLOSTMYDWAWG",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ijustlostmydwawg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/functions/ijustlostmydwawg.mcfunction"
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/progresssion"
+    },
+    {
+      "name": "Tempestus",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempestus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/tempestus.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "LightingcloackReliazed",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightingcloack_reliazed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/lightingcloack_reliazed.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Awakentempestus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awakentempestus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/AwakentempestusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/progression"
+    },
+    {
+      "name": "Temptusprogression1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temptusprogression_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/Temptusprogression1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/progression"
+    },
+    {
+      "name": "VelibornUncaged",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veliborn_uncaged",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/veliborn_uncaged.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "Umbralsteppes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbralsteppes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/umbralsteppes.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "ShadowChian",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_chian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/myth_craft/advancements/shadow_chian.json"
+        ]
+      },
+      "path": "~/clanstuff/advacments"
+    },
+    {
+      "name": "ShadowVialPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_vial_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/ShadowVialPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/items/Awakening"
+    },
+    {
+      "name": "ShadowVial",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_vial",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/myth_craft/models/item/shadow_vial.json",
+          "src/main/java/net/mcreator/mythcraft/item/ShadowVialItem.java"
+        ]
+      },
+      "path": "~/clanstuff/items/Awakening"
+    },
+    {
+      "name": "Veilbronprog2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veilbronprog_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/Veilbronprog2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/progression"
+    },
+    {
+      "name": "Velibornprog3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velibornprog_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/Velibornprog3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/progression"
+    },
+    {
+      "name": "Crimsionclawkeybind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimsionclawkeybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/CrimsionclawkeybindProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Crimson Claws"
+    },
+    {
+      "name": "Saguinehealingkeybind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saguinehealingkeybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/SaguinehealingkeybindProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Aetheris/Sanguine Healing"
+    },
+    {
+      "name": "Lightingclickkeybind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightingclickkeybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/LightingclickkeybindProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Tempestus/lighting cloak"
+    },
+    {
+      "name": "EngineeringTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engineering_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/block/entity/EngineeringTableBlockEntity.java",
+          "src/main/resources/assets/myth_craft/models/item/engineering_table.json",
+          "src/main/resources/assets/myth_craft/models/block/engineering_table.json",
+          "src/main/resources/assets/myth_craft/blockstates/engineering_table.json",
+          "src/main/java/net/mcreator/mythcraft/block/EngineeringTableBlock.java",
+          "src/main/resources/data/myth_craft/loot_tables/blocks/engineering_table.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Engerineringtablegui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engerineringtablegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/client/gui/EngerineringtableguiScreen.java",
+          "src/main/java/net/mcreator/mythcraft/world/inventory/EngerineringtableguiMenu.java"
+        ]
+      },
+      "path": "~/Blocks/gui"
+    },
+    {
+      "name": "Enginertablecraft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enginertablecraft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/EnginertablecraftProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Blocks/gui"
+    },
+    {
+      "name": "CyberneticArm",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cybernetic_arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/item/CyberneticArmItem.java",
+          "src/main/resources/assets/myth_craft/models/item/cybernetic_arm.json"
+        ]
+      },
+      "path": "~/Engeenering"
+    },
+    {
+      "name": "CyberneticArmRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cybernetic_arm_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/CyberneticArmRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Engeenering"
+    },
+    {
+      "name": "LmbBoxer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmb_boxer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/LmbBoxerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fighting_style/Boxer"
+    },
+    {
+      "name": "Setfightingstyle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setfightingstyle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/SetfightingstyleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Setfightingstlye",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setfightingstlye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/command/SetfightingstlyeCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Rmbboxercooldown",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rmbboxercooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/potion/RmbboxercooldownMobEffect.java"
+        ]
+      },
+      "path": "~/fighting_style/Boxer"
+    },
+    {
+      "name": "RmbBoxer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rmb_boxer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/RmbBoxerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/fighting_style/Boxer"
+    },
+    {
+      "name": "FightingstanceOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fightingstance_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/FightingstanceOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Fightingstance",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fightingstance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/network/FightingstanceMessage.java"
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "MovekeybindsThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movekeybinds_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/MovekeybindsThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Movekeybinds",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movekeybinds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/world/inventory/MovekeybindsMenu.java",
+          "src/main/java/net/mcreator/mythcraft/client/gui/MovekeybindsScreen.java"
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Slot1",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/network/Slot1Message.java"
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Slot1OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slot_1_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/Slot1OnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Opengui",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opengui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/network/OpenguiMessage.java"
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "OpenguiOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opengui_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/OpenguiOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/keybinds"
+    },
+    {
+      "name": "Eclispestrikekeybind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eclispestrikekeybind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/EclispestrikekeybindProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Eclispe_Strike"
+    },
+    {
+      "name": "Umbralstepkeybin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbralstepkeybin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mythcraft/procedures/UmbralstepkeybinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/clanstuff/Veilborne/Umbral Step"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Bloodlevel",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Clan",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "currentmove",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fiendmode",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Joinedwolrd",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "selectedabiltiy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fightingstyle",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fightingstance",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "slot1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "bloodsplash",
+      "files": [
+        "blood_explosion_on_zombie_01_0"
+      ],
+      "category": "neutral",
+      "subtitle": "Blood Weapon Forming"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:CyberneticArm",
+      "~CUSTOM:BloodSycthe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.myth_craft.movekeybinds.slot1": "Slot1",
+      "gui.myth_craft.playerinfo.label_empty": "",
+      "item.myth_craft.turbanicant": "Turbanicant",
+      "advancements.fullglass.title": "Glass Fully Filled",
+      "effect.myth_craft.lc": "Lc",
+      "advancements.shadow_chian.title": "Shadow Chains",
+      "advancements.tempestus.title": "Tempestus awakened",
+      "advancements.fiending.title": "I HATE HUMANS",
+      "key.myth_craft.fightingstance": "Fightingstance",
+      "gui.myth_craft.movekeybinds.slot2": "slot2",
+      "item.myth_craft.cybernetic_arm": "Cybernetic Arm",
+      "item.myth_craft.blood": "Blood",
+      "advancements.thanksforplaying.descr": "thanks for downloading our mod",
+      "gui.myth_craft.engerineringtablegui.label_engineering_table": "Engineering Table",
+      "effect.myth_craft.rmbboxercooldown": "Rmbboxercooldown",
+      "key.myth_craft.opengui": "open gui",
+      "item.myth_craft.blood_sycthe": "Blood Sycthe",
+      "advancements.thanksforplaying.title": "Thanksforplaying",
+      "advancements.glass_half_full.title": "Glass Half Full",
+      "gui.myth_craft.engerineringtablegui.button_forge": "FORGE",
+      "item.myth_craft.eclispe_strike": "Eclispe Strike",
+      "item_group.myth_craft.mythcraftabilites": "Mythcraftabilites",
+      "advancements.fiending.descr": "be at 120% bloodlevel",
+      "advancements.aetheris_awakening.title": "Aetheris Awakening",
+      "advancements.umbralsteppes.title": "Obsidian Step",
+      "advancements.veliborn_uncaged.descr": "Awaken your Veilibron MutantGene",
+      "item.myth_craft.lighting_cloack": "Lighting Cloack",
+      "gui.myth_craft.keybind.button_confirm": "confirm",
+      "block.myth_craft.engineering_table": "Engineering Table",
+      "advancements.lightingcloack_reliazed.title": "Lightingcloack Reliazed",
+      "item.myth_craft.shadow_vial": "Shadow Vial",
+      "subtitles.bloodsplash": "Blood Weapon Forming",
+      "key.myth_craft.slot_1": "Slot1",
+      "item_group.myth_craft.mythcraft_items": "Mythcraft Items",
+      "advancements.aetheris_awakening.descr": "You awakend your Passed down Ability to control Blood",
+      "advancements.glass_half_full.descr": "Have your blood level be at 50%",
+      "advancements.fullglass.descr": "Have your blood level at 100%",
+      "item.myth_craft.umbral_step": "Umbral Step",
+      "advancements.umbralsteppes.descr": "Gain the ability to teleport 5 blocks",
+      "advancements.lightingcloack_reliazed.descr": "Get Strucked by Lighting While having a Speed effect to realize your lighting cloack",
+      "advancements.veliborn_uncaged.title": "Veliborn Uncaged",
+      "advancements.tempestus.descr": "Get struck by lighting to awaken your mutant gene",
+      "advancements.shadow_chian.descr": "Chain others in shadow",
+      "item.myth_craft.crimson_claws": "Crimson Claws",
+      "item.myth_craft.sanguine_healing": "Sanguine Healing"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "clanstuff",
+        "children": [
+          {
+            "name": "items",
+            "children": [
+              {
+                "name": "Awakening",
+                "children": []
+              },
+              {
+                "name": "Consounmble",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tempestus",
+            "children": [
+              {
+                "name": "lighting cloak",
+                "children": []
+              },
+              {
+                "name": "progression",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Veilborne",
+            "children": [
+              {
+                "name": "Eclispe_Strike",
+                "children": []
+              },
+              {
+                "name": "Umbral Step",
+                "children": []
+              },
+              {
+                "name": "progression",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "advacments",
+            "children": []
+          },
+          {
+            "name": "Aetheris",
+            "children": [
+              {
+                "name": "Crimson Claws",
+                "children": []
+              },
+              {
+                "name": "Sanguine Healing",
+                "children": []
+              },
+              {
+                "name": "blood magment",
+                "children": []
+              },
+              {
+                "name": "progresssion",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "keybinds",
+        "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "gui",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Engeenering",
+        "children": []
+      },
+      {
+        "name": "fighting_style",
+        "children": [
+          {
+            "name": "Boxer",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "myth_craft",
+    "modName": "myth craft",
+    "version": "1.0.0",
+    "author": "lunar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.mythcraft"
+  },
+  "mcreatorVersion": 202400342716
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "myth_craft:crimson_claws"
+    },
+    "title": {
+      "translate": "advancements.fullglass.title"
+    },
+    "description": {
+      "translate": "advancements.fullglass.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fullglass_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "function": "myth_craft:ijustlostmydwawg"
+  },
+  "parent": "myth_craft:glass_half_full"
+}

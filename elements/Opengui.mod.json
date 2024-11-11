@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "EQUALS",
+    "keyBindingName": "open gui",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "OpenguiOnKeyPressed"
+    }
+  }
+}

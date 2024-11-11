@@ -1,0 +1,11 @@
+{
+  "bloodsplash": {
+    "subtitle": "subtitles.bloodsplash",
+    "sounds": [
+      {
+        "name": "myth_craft:blood_explosion_on_zombie_01_0",
+        "stream": false
+      }
+    ]
+  }
+}

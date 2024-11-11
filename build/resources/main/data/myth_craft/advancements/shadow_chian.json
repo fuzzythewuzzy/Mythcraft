@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "myth_craft:eclispe_strike"
+    },
+    "title": {
+      "translate": "advancements.shadow_chian.title"
+    },
+    "description": {
+      "translate": "advancements.shadow_chian.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shadow_chian_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "myth_craft:umbralsteppes"
+}

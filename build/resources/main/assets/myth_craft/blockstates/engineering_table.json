@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "myth_craft:block/engineering_table"
+    },
+    "facing=east": {
+      "model": "myth_craft:block/engineering_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "myth_craft:block/engineering_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "myth_craft:block/engineering_table",
+      "y": 270
+    }
+  }
+}

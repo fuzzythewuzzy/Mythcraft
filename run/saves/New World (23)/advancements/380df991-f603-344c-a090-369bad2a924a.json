@@ -1,0 +1,119 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-10 21:38:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2024-11-10 21:38:44 -0500",
+      "minecraft:beach": "2024-11-11 01:34:20 -0500",
+      "minecraft:river": "2024-11-11 01:33:48 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-11-10 21:40:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-11-10 21:40:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-11-10 21:40:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-10 21:48:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:husk": "2024-11-10 21:48:30 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:husk": "2024-11-10 21:48:30 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:tempestus": {
+    "criteria": {
+      "tempestus_0": "2024-11-11 01:33:36 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:lightingcloack_reliazed": {
+    "criteria": {
+      "lightingcloack_reliazed_0": "2024-11-11 01:33:40 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:glass_half_full": {
+    "criteria": {
+      "glass_half_full_0": "2024-11-11 01:46:26 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:fullglass": {
+    "criteria": {
+      "fullglass_0": "2024-11-11 01:46:26 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:aetheris_awakening": {
+    "criteria": {
+      "aetheris_awakening_0": "2024-11-11 01:46:26 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:fiending": {
+    "criteria": {
+      "fiending_0": "2024-11-11 01:46:26 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-11 01:52:05 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:shadow_chian": {
+    "criteria": {
+      "shadow_chian_0": "2024-11-11 01:52:05 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:umbralsteppes": {
+    "criteria": {
+      "umbralsteppes_0": "2024-11-11 01:52:05 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:veliborn_uncaged": {
+    "criteria": {
+      "veliborn_uncaged_0": "2024-11-11 01:52:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-11 02:02:52 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

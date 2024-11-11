@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "myth_craft:sanguine_healing"
+    },
+    "title": {
+      "translate": "advancements.glass_half_full.title"
+    },
+    "description": {
+      "translate": "advancements.glass_half_full.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glass_half_full_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "function": "myth_craft:chasethebag"
+  },
+  "parent": "myth_craft:aetheris_awakening"
+}

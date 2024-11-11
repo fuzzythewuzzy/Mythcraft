@@ -1,0 +1,95 @@
+{
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-11-09 21:41:18 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:glass_half_full": {
+    "criteria": {
+      "glass_half_full_0": "2024-11-09 21:32:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-11-09 21:45:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-11-09 21:45:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-11-09 21:45:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-11-09 21:45:31 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:fullglass": {
+    "criteria": {
+      "fullglass_0": "2024-11-09 21:34:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-09 21:31:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-09 21:45:31 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-09 21:31:05 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:aetheris_awakening": {
+    "criteria": {
+      "aetheris_awakening_0": "2024-11-09 21:32:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-11-09 21:31:07 -0500",
+      "minecraft:savanna": "2024-11-09 21:40:28 -0500",
+      "minecraft:plains": "2024-11-09 21:33:07 -0500"
+    },
+    "done": false
+  },
+  "myth_craft:fiending": {
+    "criteria": {
+      "fiending_0": "2024-11-09 21:41:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2024-11-09 21:44:29 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-09 21:39:14 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

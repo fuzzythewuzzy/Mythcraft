@@ -1,0 +1,40 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-09 20:47:17 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:thanksforplaying": {
+    "criteria": {
+      "thanksforplaying_0": "2024-11-09 20:47:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-11-09 20:47:43 -0500",
+      "minecraft:jungle": "2024-11-09 20:47:19 -0500"
+    },
+    "done": false
+  },
+  "myth_craft:glass_half_full": {
+    "criteria": {
+      "glass_half_full_0": "2024-11-09 20:47:38 -0500"
+    },
+    "done": true
+  },
+  "myth_craft:aetheris_awakening": {
+    "criteria": {
+      "aetheris_awakening_0": "2024-11-09 20:47:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-09 20:49:28 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

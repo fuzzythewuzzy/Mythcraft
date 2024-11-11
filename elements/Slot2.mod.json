@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Slot1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Slot2keypressed"
+    }
+  }
+}

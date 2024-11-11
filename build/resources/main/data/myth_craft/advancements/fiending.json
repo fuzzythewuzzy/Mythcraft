@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "myth_craft:sanguine_healing"
+    },
+    "title": {
+      "translate": "advancements.fiending.title"
+    },
+    "description": {
+      "translate": "advancements.fiending.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fiending_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "myth_craft:fullglass"
+}
